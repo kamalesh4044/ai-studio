@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-1: #f4f7ff;
+  --bg-2: #eef8ff;
+  --bg-3: #ffffff;
+  --text-main: #1a2238;
+  --text-soft: #4d5875;
+  --panel: rgba(255, 255, 255, 0.78);
+  --panel-border: rgba(120, 141, 192, 0.24);
+  --accent: #0aaecf;
+  --accent-strong: #0b8cab;
+}
+
+.dark {
+  --bg-1: #050b1c;
+  --bg-2: #101831;
+  --bg-3: #0a1024;
+  --text-main: #e7ecff;
+  --text-soft: #a9b4d3;
+  --panel: rgba(18, 28, 54, 0.82);
+  --panel-border: rgba(96, 122, 188, 0.4);
+  --accent: #22ccf0;
+  --accent-strong: #4fdaff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#__next {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  color: var(--text-main);
+  background:
+    radial-gradient(circle at 8% 5%, rgba(34, 204, 240, 0.2), transparent 28%),
+    radial-gradient(circle at 88% 18%, rgba(10, 174, 207, 0.18), transparent 32%),
+    linear-gradient(145deg, var(--bg-1), var(--bg-2) 42%, var(--bg-3));
+  font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+  line-height: 1.45;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.app-shell {
+  backdrop-filter: blur(8px);
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+}
+
+.soft-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(86, 106, 153, 0.5) transparent;
+}
+
+.soft-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.soft-scroll::-webkit-scrollbar-thumb {
+  background: rgba(86, 106, 153, 0.5);
+  border-radius: 999px;
+}
