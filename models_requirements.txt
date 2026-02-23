@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+transformers
+accelerate
+sentencepiece
+safetensors
+diffusers
+huggingface_hub
