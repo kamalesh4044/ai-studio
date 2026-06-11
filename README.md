@@ -8,6 +8,8 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
 [![Colab Ready](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](#-colab-notebooks)
+[![Issues](https://img.shields.io/github/issues/kamalesh4044/ai-studio?style=for-the-badge&logo=github)](https://github.com/kamalesh4044/ai-studio/issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 A modern, responsive Next.js application that runs instantly in **mock mode** and seamlessly scales to use **real open-source models** (LLMs, Diffusion, Video) by simply setting environment variables. Perfect for rapid prototyping and local AI development!
 
